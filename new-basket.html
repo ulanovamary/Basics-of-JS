@@ -1,0 +1,61 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	
+	/*
+let basket = [
+        cinnamon = {
+	            quantity: 1,
+	            price: 40,
+	    },
+        salt = {
+	            quantity: 1,
+	            price: 10,
+	     },
+    ];
+
+    function countBasketPrice(items) {
+        let total = 0;
+        for (var i = 0; i < items.length; i++) {
+            total += items[i].quantity * items[i].price
+        }
+        return total;
+    }
+
+    console.log("Общая стоимость корзины " + countBasketPrice(basket));
+	*/
+let basket = [];
+
+let pepper = {
+	    quantity: 1,
+	    price: 20,
+	};
+
+	const shoppingBag = {
+		bagPrice() {
+			 let total = 0;
+        for (let i = 0; i < items.length; i++) {
+            total += items[i].quantity * items[i].price
+        }
+        return total;
+		},
+
+		showPrice() {
+			console.log("Общая стоимость корзины " + this.bagPrice(this.basket));
+		},
+
+		basket: [
+	        cinnamon = {
+	            quantity: 1,
+	            price: 40,
+	        },
+	        salt = {
+	            quantity: 1,
+	            price: 10,
+	        },
+        ],
+
+        toBag(){
+        	this.basket.push(x)
+        },
+	}
+</script>
