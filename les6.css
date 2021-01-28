@@ -1,0 +1,24 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#basketCount{
+    text-align: center;
+    background-color: greenyellow;
+    padding: 5px 10px ;
+}
+
+.productButton{
+    padding: 5px 10px ;
+    text-align: center;
+    color: indigo;
+    background-color: khaki;
+}
+
+.buttons{
+    
+    display: flexbox;
+    margin-bottom: 50px;
+}
