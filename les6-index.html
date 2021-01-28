@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basket</title>
+    <link rel="stylesheet" type="text/css" href="les6.css">
+</head>
+
+<body>
+    <div class="buttons">
+        <button class="productButton" onclick="basket.toBasket(cinnamon)"> Корица</button>
+        <button class="productButton" onclick="basket.toBasket(coriander)"> Кориандр</button>
+        <button class="productButton" onclick="basket.toBasket(pepper)"> Перец</button>
+        <button class="productButton" onclick="basket.toBasket(salt)"> Соль</button>
+
+    </div>
+    <div class="showBasket">
+        <h1>В корзине: </h1>
+        <p> <button id="basketCount" onclick="basket.basketReview()">Подсчитать стоимость корзины</button></p>
+
+    </div>
+
+    <script src="les6.js">    </script>
+
+
+
+</body>
+
+</html>
